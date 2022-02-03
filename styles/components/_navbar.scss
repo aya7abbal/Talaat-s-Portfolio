@@ -1,0 +1,16 @@
+.navbar-content__hidden{
+    display: none;
+    @media (max-width:768px) {
+        display: inline-block;
+    }
+}
+
+.navbar-brand{
+    border: solid 2px var(--green);
+    border-radius: 5px 20px;
+    padding: 8px;
+
+    &:hover{
+        background-color: var(--green);
+    }
+}

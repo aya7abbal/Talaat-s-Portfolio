@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600&family=Satisfy&display=swap");
+.navbar-content__hidden {
+  display: none;
+}
+@media (max-width: 768px) {
+  .navbar-content__hidden {
+    display: inline-block;
+  }
+}
+
+.navbar-brand {
+  border: solid 2px var(--green);
+  border-radius: 5px 20px;
+  padding: 8px;
+}
+.navbar-brand:hover {
+  background-color: var(--green);
+}
+
+:root {
+  --navy:#313441;
+  --lgreen:#c1ce5e;
+  --grey:#A4A6BF;
+  --bblue:hsl(220, 47%, 62%);
+  --green:#97A629;
+  --lgreeno:#c1ce5e11;
+  --lgrey:#bbc1dd;
+  --mdgrey:#a4acd1;
+  --blue:#3188fa;
+}
+
+.btn-green {
+  border: 2px solid var(--green);
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+}
+.btn-green:hover {
+  color: #c5c5c5;
+  background-color: var(--lgreeno);
+}
+
+.btn-blue {
+  border: 2px solid var(--blue);
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+}
+.btn-blue:hover {
+  color: #c5c5c5;
+  background-color: var(--bblue);
+}
+
+.rotating-icon, .rotated-icon {
+  transform: rotate(45deg) !important;
+  z-index: 100;
+}
+.rotating-icon:hover, .rotated-icon:hover {
+  transform: rotate(90deg) !important;
+  transition: 0.6s;
+}
+.rotating-icon:active .rotating-icon:focus, .rotating-icon:active .rotated-icon:focus, .rotated-icon:active .rotating-icon:focus, .rotated-icon:active .rotated-icon:focus {
+  transform: rotate(90deg) !important;
+}
+
+h2 {
+  color: white;
+  font-size: 2.3em;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2.9em;
+  }
+}
+
+h3 {
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 2.2em;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 2.7em;
+  }
+}
+
+h4 {
+  color: var(--blue);
+  font-weight: 400;
+  font-size: 1.5em;
+  background-color: var(--navy);
+}
+@media (min-width: 768px) {
+  h4 {
+    font-size: 2em;
+  }
+}
+
+h5 {
+  color: white;
+  display: inline-block;
+}
+
+h6 {
+  font-size: 1.2em;
+  color: var(--lgreen);
+  font-weight: 400;
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  h6 {
+    font-size: 1.5em;
+  }
+}
+
+a {
+  color: var(--lgreen);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--green);
+  text-decoration: underline;
+}
+
+ul {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.iconed-list li {
+  list-style-image: url(/svg/list.svg);
+  color: var(--mdgrey);
+  padding: 10px 10px 0px 10px;
+  margin: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0%;
+}
+
+p {
+  font-size: 1.2em;
+  color: var(--mdgrey);
+  font-weight: 400;
+  text-align: justify;
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 1.2em;
+  }
+}
+
+i {
+  color: var(--mdgrey);
+}
+
+.nav-tabs .nav-link {
+  color: var(--mdgrey);
+  background-color: transparent !important;
+  -webkit-text-decoration-color: var(--mdgrey);
+          text-decoration-color: var(--mdgrey);
+}
+.nav-tabs .nav-link:focus {
+  background-color: transparent !important;
+  color: var(--lgreen);
+  border-bottom-color: var(--lgreen);
+}
+.nav-tabs .nav-link:active {
+  background-color: transparent !important;
+  color: var(--lgreen);
+}
+
+.intro {
+  padding-top: 120px;
+}
+
+.section-header {
+  padding-top: 170px;
+}
+.section-header hr {
+  position: relative;
+  top: 30%;
+  color: var(--blue);
+  width: 70%;
+}
+
+.about-img {
+  position: relative;
+}
+.about-img img {
+  filter: invert(25%) sepia(77%) saturate(2565%) hue-rotate(200deg) brightness(103%) contrast(96%) opacity(90%);
+  border-radius: 5px;
+}
+.about-img:hover img {
+  filter: none;
+}
+.about-img:hover .about-img__border {
+  transform: translate(0px, 0px);
+  transition: 0.1s;
+}
+.about-img .about-img__border {
+  position: absolute;
+  bottom: 0px;
+  border: 5px solid var(--lgreen);
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  transform: translate(15px, 15px);
+  background-color: transparent;
+}
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--navy);
+}/*# sourceMappingURL=styles.css.map */
