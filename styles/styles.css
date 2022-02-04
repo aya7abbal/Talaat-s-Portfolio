@@ -218,4 +218,9 @@ i {
 * {
   font-family: "Red Hat Display", sans-serif;
   background-color: var(--navy);
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }/*# sourceMappingURL=styles.css.map */
