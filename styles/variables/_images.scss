@@ -10,20 +10,15 @@
     img {
       filter: none;
     }
-    .about-img__border{
-        transform: translate(0px, 0px);
-        transition: .1s;
-
-
-       
-
-
+    .about-img__border {
+      transform: translate(0px, 0px);
+      transition: 0.1s;
     }
   }
 
   .about-img__border {
     position: absolute;
-    bottom: 0px;
+    bottom: 0%;
     border: 5px solid var(--lgreen);
     border-radius: 5px;
     width: 300px;
@@ -31,17 +26,9 @@
     transform: translate(15px, 15px);
     background-color: transparent;
 
-
-    @media (min-width:768px) {
-        position: absolute;
-        bottom: 330px;
-        left: 15px;
-
-        &:hover{
-            transform: translate(-15px, -15px);
-            transition: .1s;
-    
-        }
+    @media (min-width: 1024px) {
+      position: absolute;
+      bottom: 53.5%;
 
     }
   }

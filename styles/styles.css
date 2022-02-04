@@ -200,7 +200,7 @@ i {
 }
 .about-img .about-img__border {
   position: absolute;
-  bottom: 0px;
+  bottom: 0%;
   border: 5px solid var(--lgreen);
   border-radius: 5px;
   width: 300px;
@@ -208,15 +208,10 @@ i {
   transform: translate(15px, 15px);
   background-color: transparent;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .about-img .about-img__border {
     position: absolute;
-    bottom: 330px;
-    left: 15px;
-  }
-  .about-img .about-img__border:hover {
-    transform: translate(-15px, -15px);
-    transition: 0.1s;
+    bottom: 53.5%;
   }
 }
 
