@@ -208,6 +208,17 @@ i {
   transform: translate(15px, 15px);
   background-color: transparent;
 }
+@media (min-width: 768px) {
+  .about-img .about-img__border {
+    position: absolute;
+    bottom: 330px;
+    left: 15px;
+  }
+  .about-img .about-img__border:hover {
+    transform: translate(-15px, -15px);
+    transition: 0.1s;
+  }
+}
 
 * {
   font-family: "Red Hat Display", sans-serif;

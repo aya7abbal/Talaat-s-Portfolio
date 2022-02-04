@@ -15,6 +15,9 @@
         transition: .1s;
 
 
+       
+
+
     }
   }
 
@@ -27,5 +30,19 @@
     height: 300px;
     transform: translate(15px, 15px);
     background-color: transparent;
+
+
+    @media (min-width:768px) {
+        position: absolute;
+        bottom: 330px;
+        left: 15px;
+
+        &:hover{
+            transform: translate(-15px, -15px);
+            transition: .1s;
+    
+        }
+
+    }
   }
 }
