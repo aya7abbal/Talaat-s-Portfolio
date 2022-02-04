@@ -190,6 +190,7 @@ i {
 .about-img img {
   filter: invert(25%) sepia(77%) saturate(2565%) hue-rotate(200deg) brightness(103%) contrast(96%) opacity(90%);
   border-radius: 5px;
+  z-index: 1;
 }
 .about-img:hover img {
   filter: none;
@@ -207,6 +208,7 @@ i {
   height: 300px;
   transform: translate(15px, 15px);
   background-color: transparent;
+  z-index: 3;
 }
 @media (min-width: 1024px) {
   .about-img .about-img__border {
@@ -218,6 +220,9 @@ i {
 * {
   font-family: "Red Hat Display", sans-serif;
   background-color: var(--navy);
+}
+
+body {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0% !important;

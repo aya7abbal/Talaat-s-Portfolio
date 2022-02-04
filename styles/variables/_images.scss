@@ -5,6 +5,7 @@
     filter: invert(25%) sepia(77%) saturate(2565%) hue-rotate(200deg)
       brightness(103%) contrast(96%) opacity(90%);
     border-radius: 5px;
+    z-index: 1;
   }
   &:hover {
     img {
@@ -25,6 +26,7 @@
     height: 300px;
     transform: translate(15px, 15px);
     background-color: transparent;
+    z-index: 3;
 
     @media (min-width: 1024px) {
       position: absolute;
