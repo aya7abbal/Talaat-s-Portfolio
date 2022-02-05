@@ -1,11 +1,17 @@
 .about-img {
   position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
 
   img {
-    filter: invert(25%) sepia(77%) saturate(2565%) hue-rotate(200deg)
-      brightness(103%) contrast(96%) opacity(95%);
+    // filter: invert(25%) sepia(77%) saturate(2565%) hue-rotate(200deg)
+    //   brightness(103%) contrast(96%) opacity(95%);
+    filter: grayscale(100%);
     border-radius: 5px;
     z-index: 1;
+    width: 300px;
+    height: 300px;
   }
   &:hover {
     img {
@@ -24,13 +30,13 @@
     border-radius: 5px;
     width: 300px;
     height: 300px;
-    transform: translate(15px, 15px);
+    transform: translate(-15px, 15px);
     background-color: transparent;
     z-index: 3;
 
     @media (min-width: 1024px) {
-      position: absolute;
-      bottom: 53.5%;
+    //   position: absolute;
+    //   bottom: 53.5%;
 
     }
   }
