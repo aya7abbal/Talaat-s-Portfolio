@@ -276,6 +276,10 @@ i {
   background-color: transparent;
   z-index: 3;
 }
+.card-img-overlay {
+  opacity: 80%;
+}
+
 * {
   font-family: "Red Hat Display", sans-serif;
   background-color: var(--navy);
