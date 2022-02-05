@@ -17,6 +17,63 @@
   background-color: var(--green);
 }
 
+footer .footer-left {
+  position: fixed;
+  bottom: 5px;
+  left: 20px;
+}
+@media (max-width: 768px) {
+  footer .footer-left {
+    display: none;
+  }
+}
+footer .footer-left i {
+  margin: 10px;
+  margin-top: 30px;
+  font-size: 1.1em;
+  color: white;
+}
+footer .footer-left i:hover {
+  transform: translateY(-5px);
+  color: greenyellow !important;
+}
+footer .footer-left .line {
+  height: 100px;
+  border-left: 1px solid white;
+  transform: translate(19px);
+  margin-top: 35px;
+  background-color: transparent;
+}
+footer .footer-right {
+  position: fixed;
+  bottom: 5px;
+  right: 25px;
+}
+@media (max-width: 768px) {
+  footer .footer-right {
+    display: none;
+  }
+}
+footer .footer-right a {
+  color: white;
+}
+footer .footer-right a:hover {
+  color: greenyellow;
+  text-decoration: none;
+  transform: translateY(-5px);
+}
+footer .footer-right .footer-right__link {
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  color: white;
+}
+footer .footer-right .line {
+  height: 100px;
+  border-left: 1px solid white;
+  transform: translate(10px);
+  margin-top: 30px;
+}
+
 :root {
   --navy:#313441;
   --lgreen:#c1ce5e;
@@ -184,6 +241,10 @@ i {
   width: 70%;
 }
 
+#v-pills-tab {
+  border-bottom: none;
+}
+
 .about-img {
   position: relative;
   display: flex;
@@ -224,4 +285,10 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0% !important;
+  background-color: var(--navy);
+}
+@media (min-width: 768px) {
+  body .body-wrapper {
+    padding: 0px 50px;
+  }
 }/*# sourceMappingURL=styles.css.map */

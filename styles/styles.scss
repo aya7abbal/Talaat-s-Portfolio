@@ -22,4 +22,13 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0% !important;
+  background-color: var(--navy);
+.body-wrapper{
+
+  @media (min-width:768px) {
+    padding: 0px 50px;
+  }
 }
+
+}
+
