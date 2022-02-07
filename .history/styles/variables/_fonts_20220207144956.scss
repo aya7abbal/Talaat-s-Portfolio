@@ -52,7 +52,8 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: var(--green);
+    // color: var(--green);
+
     text-decoration: underline;
   }
 }
