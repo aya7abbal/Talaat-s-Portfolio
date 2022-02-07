@@ -1,0 +1,17 @@
+footer{
+
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    .footer-left{
+        i{
+            font-size: 1.3em;
+            color:white;
+        }
+    
+        .line{
+            border-left: 1px solid white;
+            background-color: transparent;
+        }
+    }
+}

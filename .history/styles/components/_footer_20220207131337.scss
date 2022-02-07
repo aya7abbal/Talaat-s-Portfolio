@@ -1,0 +1,19 @@
+footer{
+
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    background-color: transparent !important;
+    .footer-left{
+        i{
+            font-size: 1.3em;
+            color:white;
+            margin: 10px;
+        }
+    
+        .line{
+            border-left: 1px solid white;
+            background-color: transparent;
+        }
+    }
+}

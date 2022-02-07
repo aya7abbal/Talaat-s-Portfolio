@@ -1,0 +1,22 @@
+footer{
+
+    position: fixed;
+    bottom: 120px;
+    left: 20px;
+    .footer-left{
+        i{
+            font-size: 1.3em;
+            color:white;
+            margin: 10px;
+        }
+    
+        .line{
+
+            border-right: 1px solid white;
+            padding: 20px;
+            background-color: transparent;
+            transform: translatex(-19px);
+
+        }
+    }
+}
