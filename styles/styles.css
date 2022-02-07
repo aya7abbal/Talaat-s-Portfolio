@@ -17,6 +17,11 @@
   background-color: var(--green);
 }
 
+@media (max-width: 768px) {
+  footer {
+    display: none;
+  }
+}
 footer .footer-left {
   position: fixed;
   bottom: 10px;
