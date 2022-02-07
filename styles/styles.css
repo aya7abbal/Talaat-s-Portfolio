@@ -232,11 +232,11 @@ i {
 }
 
 .intro {
-  padding-top: 120px;
+  padding-top: 160px;
 }
 
 .section-header {
-  padding-top: 170px;
+  padding-top: 180px;
 }
 .section-header hr {
   position: relative;
@@ -287,6 +287,10 @@ i {
 body {
   margin: 0%;
   overflow-x: hidden;
-  padding: 40px;
   background-color: var(--navy);
+}
+@media (min-width: 768px) {
+  body {
+    padding: 40px;
+  }
 }/*# sourceMappingURL=styles.css.map */
