@@ -58,6 +58,7 @@ footer .footer-right a {
       writing-mode: vertical-rl;
   transform: translatex(10px);
   color: white;
+  font-size: 1em;
 }
 footer .footer-right a:hover {
   color: greenyellow;
@@ -239,9 +240,18 @@ i {
   width: 70%;
 }
 
+#v-pills-tab {
+  border: none;
+}
+
 .about-img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   position: relative;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .about-img img {
   filter: invert(25%) sepia(77%) saturate(2565%) hue-rotate(200deg) brightness(103%) contrast(96%) opacity(90%);

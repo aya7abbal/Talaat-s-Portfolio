@@ -1,5 +1,4 @@
 .about-img {
-  height: fit-content;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -29,7 +28,7 @@
     border-radius: 5px;
     width: 300px;
     height: 300px;
-    transform: translate(15px, 15px);
+    // transform: translate(15px, 15px);
     background-color: transparent;
   }
 }
