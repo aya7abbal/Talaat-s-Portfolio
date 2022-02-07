@@ -179,6 +179,7 @@ a {
   color: var(--lgreen);
   text-decoration: none;
   background-color: transparent;
+  cursor: pointer;
 }
 a:hover {
   color: var(--green);
@@ -217,6 +218,13 @@ p {
 .smaller-p, span {
   font-size: 1em;
   color: var(--lgrey);
+}
+
+span {
+  color: white;
+}
+span:hover {
+  font-weight: bolder;
 }
 
 i {
