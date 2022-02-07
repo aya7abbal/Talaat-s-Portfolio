@@ -1,0 +1,32 @@
+
+.projects{
+
+   .card{
+       border-radius: 8px;
+opacity: 40%;
+
+&:hover{
+    opacity: 100%;
+}
+   }
+
+.card-img-overlay {
+    opacity: 90%;
+    
+}
+
+
+
+
+.project-desc{
+@media (max-width:768px) {
+    display: none;
+    
+}
+
+    background-color: var(--green);
+    height:150px;
+    transform: translate(-200px);
+    border-radius: 8px;
+}
+}

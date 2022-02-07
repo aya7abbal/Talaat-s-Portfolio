@@ -1,0 +1,27 @@
+.projects {
+  .card {
+    border-radius: 8px;
+    opacity: 90%;
+  
+    &:hover {
+      opacity: 100%;
+    }
+
+    .card-img-verlay {
+        opacity: 90%;
+      }
+  }
+
+  
+
+  .project-desc {
+    @media (max-width: 768px) {
+      display: none;
+    }
+    padding: 15px;
+    background-color: var(--lnavy);
+    height: fit-content;
+    transform: translate(-200px);
+    border-radius: 8px;
+  }
+}

@@ -80,6 +80,7 @@ footer .footer-right .line {
 
 :root {
   --navy:#313441;
+  --lnavy:#42485c;
   --lgreen:#c1ce5e;
   --grey:#A4A6BF;
   --bblue:hsl(220, 47%, 62%);
@@ -88,6 +89,7 @@ footer .footer-right .line {
   --lgrey:#bbc1dd;
   --mdgrey:#a4acd1;
   --blue:#3188fa;
+  --wblue:#4362c9;
 }
 
 .btn-green {
@@ -149,7 +151,6 @@ h4 {
   color: var(--blue);
   font-weight: 400;
   font-size: 1.5em;
-  background-color: var(--navy);
 }
 @media (min-width: 768px) {
   h4 {
@@ -177,6 +178,7 @@ h6 {
 a {
   color: var(--lgreen);
   text-decoration: none;
+  background-color: transparent;
 }
 a:hover {
   color: var(--green);
@@ -204,11 +206,17 @@ p {
   color: var(--mdgrey);
   font-weight: 400;
   text-align: justify;
+  background-color: transparent;
 }
 @media (min-width: 768px) {
   p {
     font-size: 1.2em;
   }
+}
+
+.smaller-p, span {
+  font-size: 1em;
+  color: var(--lgrey);
 }
 
 i {
@@ -279,9 +287,45 @@ i {
   background-color: transparent;
 }
 
+.projects .card {
+  border-radius: 8px;
+}
+.projects .card img {
+  opacity: 20%;
+}
+@media (max-width: 991px) {
+  .projects .card img {
+    opacity: 10%;
+  }
+}
+.projects .card img:hover {
+  opacity: 100%;
+}
+.projects .card .card-img-verlay {
+  opacity: 90%;
+}
+.projects .project-desc__wrap {
+  min-width: 500px;
+  transform: translate(-210px, -20px);
+  background-color: transparent;
+  text-align: right;
+}
+@media (max-width: 992px) {
+  .projects .project-desc__wrap {
+    display: none;
+  }
+}
+.projects .project-desc {
+  padding: 15px;
+  background-color: var(--lnavy);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 8px;
+}
+
 * {
   font-family: "Red Hat Display", sans-serif;
-  background-color: var(--navy);
 }
 
 body {

@@ -1,0 +1,30 @@
+.projects {
+  .card {
+    border-radius: 8px;
+    img {
+      opacity: 70%;
+      &:hover {
+        opacity: 100%;
+      }
+    }
+    .card-img-verlay {
+      opacity: 90%;
+    }
+  }
+
+  .project-desc__wrap {
+    @media (max-width: 992px) {
+      display: none;
+    }
+    min-width: 500px;
+    transform: translate(-210px, -40px);
+    background-color: transparent;
+    text-align: right;
+  }
+  .project-desc {
+    padding: 15px;
+    background-color: var(--lnavy);
+    height: fit-content;
+    border-radius: 8px;
+  }
+}
