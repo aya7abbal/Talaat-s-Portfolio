@@ -151,10 +151,12 @@ h4 {
   color: var(--blue);
   font-weight: 400;
   font-size: 1.5em;
+  margin: 0px 15px;
 }
 @media (min-width: 768px) {
   h4 {
     font-size: 2em;
+    margin: 0px 0px;
   }
 }
 
@@ -314,7 +316,7 @@ i {
 @media (max-width: 991px) {
   .projects .card img {
     opacity: 20%;
-    height: 350px;
+    min-height: 400px;
   }
 }
 .projects .card img:hover {
