@@ -86,24 +86,40 @@ footer .footer-right .line {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 8%;
+  right: 10%;
   z-index: 99;
   border: none;
   outline: none;
-  background-color: var(--teal3);
+  background-color: var(--wblue);
   cursor: pointer;
-  border-radius: 10px;
-  bottom: 8%;
-  right: 3%;
-  font-size: 20px;
+  border-radius: 8px;
+  padding: 3px 8px;
+}
+#myBtn i {
   color: white;
+  font-size: 1.5em;
 }
 
 #myBtn:hover {
-  background-color: white;
-  color: var(--light-purple2);
-  box-shadow: 3px 3px var(--mint);
+  background-color: rgba(255, 255, 255, 0.87);
+  box-shadow: 3px 3px rgba(255, 255, 255, 0.1);
+}
+#myBtn:hover i {
+  color: var(--blue);
+}
+
+.contact-info {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.contact-info .social-links i {
+  margin: 0px 10px;
 }
 
 :root {
@@ -117,7 +133,7 @@ footer .footer-right .line {
   --lgrey:#bbc1dd;
   --mdgrey:#a4acd1;
   --blue:#3188fa;
-  --wblue:#4362c9;
+  --wblue:#3188fabb;
 }
 
 .btn-green {
@@ -279,7 +295,7 @@ i {
 }
 
 .intro {
-  padding-top: 160px;
+  padding-top: 120px;
 }
 
 .section-header {
@@ -422,6 +438,6 @@ body, html {
 }
 @media (min-width: 768px) {
   body, html {
-    padding: 40px;
+    padding: 0px 40px;
   }
 }/*# sourceMappingURL=styles.css.map */
