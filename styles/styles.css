@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600&family=Satisfy&family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Ephesis&family=Parisienne&display=swap");
 .navbar-content__hidden {
   display: none;
 }
@@ -80,6 +81,29 @@ footer .footer-right .line {
   background-color: transparent;
   transform: translatex(-19px);
   margin-top: 15px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: var(--teal3);
+  cursor: pointer;
+  border-radius: 10px;
+  bottom: 8%;
+  right: 3%;
+  font-size: 20px;
+  color: white;
+}
+
+#myBtn:hover {
+  background-color: white;
+  color: var(--light-purple2);
+  box-shadow: 3px 3px var(--mint);
 }
 
 :root {
@@ -228,6 +252,7 @@ p {
 
 span {
   color: white;
+  padding: 0px 10px;
 }
 span:hover {
   font-weight: bolder;
@@ -357,6 +382,32 @@ i {
 .projects .project-link i:hover {
   color: greenyellow;
   transform: translateY(-3px);
+}
+
+.more-projs .card {
+  background-color: var(--lnavy) !important;
+}
+.more-projs .card:hover {
+  transform: translateY(-3px);
+}
+.more-projs .card:hover h5 {
+  color: greenyellow;
+}
+.more-projs .card-head {
+  margin: 15px;
+}
+.more-projs .project-link i {
+  color: white;
+  font-size: 1.2em;
+  margin: 0px 10px;
+}
+.more-projs .project-link i:hover {
+  color: greenyellow;
+  transform: translateY(-3px);
+}
+.more-projs .folder-link i {
+  color: var(--blue);
+  font-size: 2.5em;
 }
 
 * {

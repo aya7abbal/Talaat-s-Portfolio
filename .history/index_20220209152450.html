@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./images/favicon/favicon.ico"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/fd7fa2f891.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+
+    <style>
+.copyrights a{
+  font-family: "Style Script", cursive;
+  color: var(--blue);
+  font-size: 1.3em;
+
+}
+    </style>
+
+    <title>Ahmed's Portfolio</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark py-3">
+      <div class="container-fluid d-flex justify-content-between">
+        <div class="navbar-logo">
+          <a class="navbar-brand navbar-border navbar-content__hidden" href="#"
+            >AT</a
+          >
+        </div>
+
+        <!-- Offcanvas  Hidden MENU -->
+        <div class="offcanvas-menu">
+          <button
+            class="btn navbar-content__hidden rotating-icon"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <i class="bi bi-x-diamond fs-2 text-white"></i>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel"></h5>
+              <button
+                type="button"
+                class="btn text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="bi bi-x-diamond fs-2 text-white rotated-icon"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#about"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li>
+                  <a
+                    class="btn btn-green my-4"
+                    href="./Ahmed Talaat.pdf"
+                    download
+                  >
+                    Resume</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- NAVBAR Collapsable -->
+        <div
+          class="collapse navbar-collapse justify-content-between align-items-baseline"
+          id="navbarNav"
+        >
+          <a class="navbar-brand navbar-border" href="#">AT</a>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <a class="btn btn-green" href="./Ahmed Talaat.pdf" download>Resume</a>
+        </div>
+      </div>
+    </nav>
+    <div class="body-wrapper">
+      <!-- Introduction -->
+      <div class="intro px-3 px-md-5">
+        <h6>Hi, my name is</h6>
+
+        <br />
+
+        <h2>Ahmed Talaat.</h2>
+        <h3 class="pb-2">I'm a Back-end Developer.</h3>
+
+        <br />
+
+        <p>
+          I’m a software engineer specializing in building (and occasionally
+          designing) exceptional digital experiences. Currently, I’m focused on
+          building accessible, human-centered products at
+          <a href="#">Riskline.</a>
+        </p>
+
+        <br />
+
+        <a
+          class="btn btn-green btn-lg"
+          href="https://calendly.com/atalaat-92/short-discussion?month=2022-02"
+          target="_blank"
+        >
+          Book a Meeting</a
+        >
+      </div>
+
+      <!-- About -->
+
+      <div class="about px-3 px-md-5 row" id="about">
+        <div class="section-header row">
+          <div class="col-md-4 col-lg-3 col-5">
+            <h4 class="py-4">About Me</h4>
+          </div>
+          <div class="col-md-8 col-lg-9 col-7">
+            <hr />
+          </div>
+        </div>
+
+        <!-- About Paragraph -->
+        <div class="col-12 col-lg-7">
+          <p>
+            Hello, Brittany and I enjoy creating things that live on the
+            internet. My interest in web development started back in 2012 when I
+            decided to try editing custom Tumblr themes — turns out hacking
+            together a custom reblog button taught me a lot about HTML & CSS!
+          </p>
+          <br />
+
+          <p>
+            to today, and I’ve had the privilege of working at
+            <a href=""
+              >an advertising agency, a start-up, a huge corporation, and a
+              student-led design studio.</a
+            >
+            My main focus these days is building accessible, inclusive products
+            and digital experiences at <a href="">Upstatement</a> for a variety
+            of clients.
+          </p>
+
+          <br />
+          <p>
+            I also recently <a href="">launched a course</a> that covers
+            everything you need to build a web app with the Spotify API using
+            Node & React.
+          </p>
+
+          <p>Here are a few technologies I’ve been working with recently:</p>
+
+          <div class="iconed-list d-flex justify-content-center">
+            <ul class="row">
+              <div class="col-6">
+                <li>JavaScript (ES6+)</li>
+                <li>JavaScript (ES6+)</li>
+                <li>JavaScript (ES6+)</li>
+              </div>
+
+              <div class="col-6">
+                <li>JavaScript (ES6+)</li>
+                <li>JavaScript (ES6+)</li>
+                <li>JavaScript (ES6+)</li>
+              </div>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-5 d-flex justify-content-center pb-5">
+          <!-- About Image -->
+          <div class="about-img">
+            <div>
+              <img
+                src="./images/B903239F-D317-4387-9DFC-7195C9C90247_1_105_c.jpeg"
+                alt=""
+                width="300px"
+                height="300px"
+              />
+            </div>
+            <div class="about-img__border"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Work -->
+
+      <div class="work px-3 px-md-5" id="experience">
+        <div class="section-header row">
+          <div class="col-md-4 col-lg-3 col-7">
+            <h4 class="py-4">Where I've Worked</h4>
+          </div>
+          <div class="col-md-8 col-lg-9 col-5">
+            <hr />
+          </div>
+        </div>
+        <div>
+          <!-- Nav tabs -->
+          <div class="d-flex flex-md-row flex-column align-items-start">
+            <div
+              class="nav flex-md-column nav-pills me-3 mb-4 pe-md-3 nav-tabs"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active"
+                id="v-pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-home"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+              >
+                Business Boomers
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-profile"
+                aria-selected="false"
+              >
+                Objects
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-messages-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-messages"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+              >
+                Creiden
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-settings-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-settings"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-settings"
+                aria-selected="false"
+              >
+                Riskline
+              </button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="v-pills-home"
+                role="tabpanel"
+                aria-labelledby="v-pills-home-tab"
+              >
+                <div class="work-title">
+                  <h5 class="pe-2">PHP Developer</h5>
+                  <h6>@ Business Boomers</h6>
+                </div>
+                <div class="work-date">
+                  <i>May 2018 - Present </i>
+
+                  <ul class="iconed-list">
+                    <li>
+                      Write modern, performant, maintainable code for a diverse
+                      array of client and internal projects
+                    </li>
+                    <li>
+                      Work with a variety of different languages, platforms,
+                      frameworks, and content management systems such as
+                      JavaScript, TypeScript, Gatsby, React, Craft, WordPress,
+                      Prismic, and Netlify
+                    </li>
+                    <li>
+                      Communicate with multi-disciplinary teams of engineers,
+                      designers, producers, and clients on a daily basis
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade"
+                id="v-pills-profile"
+                role="tabpanel"
+                aria-labelledby="v-pills-profile-tab"
+              >
+                <div class="work-title">
+                  <h5 class="pe-2">Back-end Developer</h5>
+                  <h6>@ Objects</h6>
+                </div>
+                <div class="work-date">
+                  <i>May 2018 - Present </i>
+
+                  <ul class="iconed-list">
+                    <li>
+                      Write modern, performant, maintainable code for a diverse
+                      array of client and internal projects
+                    </li>
+                    <li>
+                      Work with a variety of different languages, platforms,
+                      frameworks, and content management systems such as
+                      JavaScript, TypeScript, Gatsby, React, Craft, WordPress,
+                      Prismic, and Netlify
+                    </li>
+                    <li>
+                      Communicate with multi-disciplinary teams of engineers,
+                      designers, producers, and clients on a daily basis
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade"
+                id="v-pills-messages"
+                role="tabpanel"
+                aria-labelledby="v-pills-messages-tab"
+              >
+                <div class="work-title">
+                  <h5 class="pe-2">Back-end Developer</h5>
+                  <h6>@ Creiden</h6>
+                </div>
+                <div class="work-date">
+                  <i>May 2018 - Present </i>
+
+                  <ul class="iconed-list">
+                    <li>
+                      Write modern, performant, maintainable code for a diverse
+                      array of client and internal projects
+                    </li>
+                    <li>
+                      Work with a variety of different languages, platforms,
+                      frameworks, and content management systems such as
+                      JavaScript, TypeScript, Gatsby, React, Craft, WordPress,
+                      Prismic, and Netlify
+                    </li>
+                    <li>
+                      Communicate with multi-disciplinary teams of engineers,
+                      designers, producers, and clients on a daily basis
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade"
+                id="v-pills-settings"
+                role="tabpanel"
+                aria-labelledby="v-pills-settings-tab"
+              >
+                <div class="work-title">
+                  <h5 class="pe-2">Project Manager</h5>
+                  <h6>@ Riskline</h6>
+                </div>
+                <div class="work-date">
+                  <i>May 2018 - Present </i>
+
+                  <ul class="iconed-list">
+                    <li>
+                      Write modern, performant, maintainable code for a diverse
+                      array of client and internal projects
+                    </li>
+                    <li>
+                      Work with a variety of different languages, platforms,
+                      frameworks, and content management systems such as
+                      JavaScript, TypeScript, Gatsby, React, Craft, WordPress,
+                      Prismic, and Netlify
+                    </li>
+                    <li>
+                      Communicate with multi-disciplinary teams of engineers,
+                      designers, producers, and clients on a daily basis
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects -->
+
+      <div class="projects px-md-5" id="work">
+        <div class="section-header row">
+          <div class="col-md-4 col-lg-3 col-7">
+            <h4 class="py-4">Some Projects I've Built</h4>
+          </div>
+          <div class="col-md-8 col-lg-9 col-5">
+            <hr />
+          </div>
+        </div>
+
+        <div class="project-card d-flex m-auto align-items-center">
+          <div class="card bg-dark text-white col-12 col-lg-8">
+            <img src="./images/project-1.jpeg" class="card-img" alt="..." />
+            <div class="card-img-overlay d-lg-none">
+              <div class="d-flex justify-content-between align-items-center">
+                <h6>Featured Project</h6>
+                <div class="d-flex justify-content-end project-link py-2">
+                  <a href=""> <i class="fas fa-external-link-alt"></i> </a
+                  ><a href=""> <i class="fab fa-github"></i> </a>
+                </div>
+              </div>
+              <h2>Halcyon Theme</h2>
+              <p class="">
+                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+                iTerm, and more. Available on
+                <a href="">Visual Studio Marketplace</a>,
+                <a href="">Package Control</a>,
+                <a href="">Atom Package Manager</a>, and <a href="">npm</a>.
+              </p>
+              <div class="d-flex justify-content-between">
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 project-desc__wrap">
+            <h6>Featured Project</h6>
+            <h2>Halcyon Theme</h2>
+            <div class="project-desc">
+              <p class="">
+                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+                iTerm, and more. Available on
+                <a href="">Visual Studio Marketplace</a>,
+                <a href="">Package Control</a>,
+                <a href="">Atom Package Manager</a>, and <a href="">npm</a>.
+              </p>
+            </div>
+            <div class="d-flex justify-content-between p-3">
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+            </div>
+            <div class="d-flex justify-content-end project-link px-2">
+              <a href=""> <i class="fas fa-external-link-alt"></i> </a
+              ><a href=""> <i class="fab fa-github"></i> </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card d-flex m-auto align-items-center">
+          <div class="card bg-dark text-white col-12 col-lg-8">
+            <img src="./images/project-2.jpeg" class="card-img" alt="..." />
+            <div class="card-img-overlay d-lg-none">
+              <div class="d-flex justify-content-between align-items-center">
+                <h6>Featured Project</h6>
+                <div class="d-flex justify-content-end project-link py-2">
+                  <a href=""> <i class="fas fa-external-link-alt"></i> </a
+                  ><a href=""> <i class="fab fa-github"></i> </a>
+                </div>
+              </div>
+              <h2>Halcyon Theme</h2>
+              <p class="">
+                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+                iTerm, and more. Available on
+                <a href="">Visual Studio Marketplace</a>,
+                <a href="">Package Control</a>,
+                <a href="">Atom Package Manager</a>, and <a href="">npm</a>.
+              </p>
+              <div class="d-flex justify-content-between">
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 project-desc__wrap">
+            <h6>Featured Project</h6>
+            <h2>Halcyon Theme</h2>
+            <div class="project-desc">
+              <p class="">
+                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+                iTerm, and more. Available on
+                <a href="">Visual Studio Marketplace</a>,
+                <a href="">Package Control</a>,
+                <a href="">Atom Package Manager</a>, and <a href="">npm</a>.
+              </p>
+            </div>
+            <div class="d-flex justify-content-between p-3">
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+            </div>
+            <div class="d-flex justify-content-end project-link px-2">
+              <a href=""> <i class="fas fa-external-link-alt"></i> </a
+              ><a href=""> <i class="fab fa-github"></i> </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card d-flex m-auto align-items-center">
+          <div class="card bg-dark text-white col-12 col-lg-8">
+            <img src="./images/project-3.jpeg" class="card-img" alt="..." />
+            <div class="card-img-overlay d-lg-none">
+              <div class="d-flex justify-content-between align-items-center">
+                <h6>Featured Project</h6>
+                <div class="d-flex justify-content-end project-link py-2">
+                  <a href=""> <i class="fas fa-external-link-alt"></i> </a
+                  ><a href=""> <i class="fab fa-github"></i> </a>
+                </div>
+              </div>
+              <h2>Halcyon Theme</h2>
+              <p class="">
+                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+                iTerm, and more. Available on
+                <a href="">Visual Studio Marketplace</a>,
+                <a href="">Package Control</a>,
+                <a href="">Atom Package Manager</a>, and <a href="">npm</a>.
+              </p>
+              <div class="d-flex justify-content-between">
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 project-desc__wrap">
+            <h6>Featured Project</h6>
+            <h2>Halcyon Theme</h2>
+            <div class="project-desc">
+              <p class="">
+                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+                iTerm, and more. Available on
+                <a href="">Visual Studio Marketplace</a>,
+                <a href="">Package Control</a>,
+                <a href="">Atom Package Manager</a>, and <a href="">npm</a>.
+              </p>
+            </div>
+            <div class="d-flex justify-content-between p-3">
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+            </div>
+            <div class="d-flex justify-content-end project-link px-2">
+              <a href=""> <i class="fas fa-external-link-alt"></i> </a
+              ><a href=""> <i class="fab fa-github"></i> </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card d-flex m-auto align-items-center">
+          <div class="card bg-dark text-white col-12 col-lg-8">
+            <img src="./images/project-4.jpeg" class="card-img" alt="..." />
+            <div class="card-img-overlay d-lg-none">
+              <div class="d-flex justify-content-between align-items-center">
+                <h6>Featured Project</h6>
+                <div class="d-flex justify-content-end project-link py-2">
+                  <a href=""> <i class="fas fa-external-link-alt"></i> </a
+                  ><a href=""> <i class="fab fa-github"></i> </a>
+                </div>
+              </div>
+              <h2>Halcyon Theme</h2>
+              <p class="">
+                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+                iTerm, and more. Available on
+                <a href="">Visual Studio Marketplace</a>,
+                <a href="">Package Control</a>,
+                <a href="">Atom Package Manager</a>, and <a href="">npm</a>.
+              </p>
+              <div class="d-flex justify-content-between">
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 project-desc__wrap">
+            <h6>Featured Project</h6>
+            <h2>Halcyon Theme</h2>
+            <div class="project-desc">
+              <p class="">
+                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+                iTerm, and more. Available on
+                <a href="">Visual Studio Marketplace</a>,
+                <a href="">Package Control</a>,
+                <a href="">Atom Package Manager</a>, and <a href="">npm</a>.
+              </p>
+            </div>
+            <div class="d-flex justify-content-between p-3">
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+            </div>
+            <div class="d-flex justify-content-end project-link px-2">
+              <a href=""> <i class="fas fa-external-link-alt"></i> </a
+              ><a href=""> <i class="fab fa-github"></i> </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card d-flex m-auto align-items-center">
+          <div class="card bg-dark text-white col-12 col-lg-8">
+            <img src="./images/project-5.jpeg" class="card-img" alt="..." />
+            <div class="card-img-overlay d-lg-none">
+              <div class="d-flex justify-content-between align-items-center">
+                <h6>Featured Project</h6>
+                <div class="d-flex justify-content-end project-link py-2">
+                  <a href=""> <i class="fas fa-external-link-alt"></i> </a
+                  ><a href=""> <i class="fab fa-github"></i> </a>
+                </div>
+              </div>
+              <h2>Halcyon Theme</h2>
+              <p class="">
+                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+                iTerm, and more. Available on
+                <a href="">Visual Studio Marketplace</a>,
+                <a href="">Package Control</a>,
+                <a href="">Atom Package Manager</a>, and <a href="">npm</a>.
+              </p>
+              <div class="d-flex justify-content-between">
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 project-desc__wrap">
+            <h6>Featured Project</h6>
+            <h2>Halcyon Theme</h2>
+            <div class="project-desc">
+              <p class="">
+                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+                iTerm, and more. Available on
+                <a href="">Visual Studio Marketplace</a>,
+                <a href="">Package Control</a>,
+                <a href="">Atom Package Manager</a>, and <a href="">npm</a>.
+              </p>
+            </div>
+            <div class="d-flex justify-content-between p-3">
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+            </div>
+            <div class="d-flex justify-content-end project-link px-2">
+              <a href=""> <i class="fas fa-external-link-alt"></i> </a
+              ><a href=""> <i class="fab fa-github"></i> </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card d-flex m-auto align-items-center">
+          <div class="card bg-dark text-white col-12 col-lg-8">
+            <img src="./images/project-6.jpeg" class="card-img" alt="..." />
+            <div class="card-img-overlay d-lg-none">
+              <div class="d-flex justify-content-between align-items-center">
+                <h6>Featured Project</h6>
+                <div class="d-flex justify-content-end project-link py-2">
+                  <a href=""> <i class="fas fa-external-link-alt"></i> </a
+                  ><a href=""> <i class="fab fa-github"></i> </a>
+                </div>
+              </div>
+              <h2>Halcyon Theme</h2>
+              <p class="">
+                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+                iTerm, and more. Available on
+                <a href="">Visual Studio Marketplace</a>,
+                <a href="">Package Control</a>,
+                <a href="">Atom Package Manager</a>, and <a href="">npm</a>.
+              </p>
+              <div class="d-flex justify-content-between">
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 project-desc__wrap">
+            <h6>Featured Project</h6>
+            <h2>Halcyon Theme</h2>
+            <div class="project-desc">
+              <p class="">
+                A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+                iTerm, and more. Available on
+                <a href="">Visual Studio Marketplace</a>,
+                <a href="">Package Control</a>,
+                <a href="">Atom Package Manager</a>, and <a href="">npm</a>.
+              </p>
+            </div>
+            <div class="d-flex justify-content-between p-3">
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+            </div>
+            <div class="d-flex justify-content-end project-link px-2">
+              <a href=""> <i class="fas fa-external-link-alt"></i> </a
+              ><a href=""> <i class="fab fa-github"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- More -->
+      <div class="more-projs px-md-5 px-3">
+        <div class="section-header row">
+          <div class="col-md-4 col-lg-3 col-7">
+            <h4 class="py-4">Some Noteworthy Work</h4>
+          </div>
+          <div class="col-md-8 col-lg-9 col-5">
+            <hr />
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+           
+              <div class="card h-100">
+                <div
+                  class="card-head d-flex justify-content-between align-items-center"
+                >
+                  <div class="folder-link"><a href=""><i class="far fa-folder"></i></a></div>
+                  <div class="d-flex justify-content-end project-link">
+                    <a href=""> <i class="fab fa-github"></i> </a>
+
+                    <a href=""> <i class="fas fa-external-link-alt"></i> </a>
+                  </div>
+                </div>
+                <div class="card-body">
+                <a href="">  <h5>Octoprofile</h5></a>
+                  <p>
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                  <div class="d-flex justify-content-start">
+                    <span>VS Code</span>
+                    <span>VS Code</span>
+                    <span>VS Code</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="col">
+           
+            <div class="card h-100">
+              <div
+                class="card-head d-flex justify-content-between align-items-center"
+              >
+                <div class="folder-link"><a href=""><i class="far fa-folder"></i></a></div>
+                <div class="d-flex justify-content-end project-link">
+                  <a href=""> <i class="fab fa-github"></i> </a>
+
+                  <a href=""> <i class="fas fa-external-link-alt"></i> </a>
+                </div>
+              </div>
+              <div class="card-body">
+              <a href="">  <h5>Octoprofile</h5></a>
+                <p>
+                  This is a longer card with supporting text below as a
+                  natural lead-in to additional content. This content is a
+                  little bit longer.
+                </p>
+                <div class="d-flex justify-content-start">
+                  <span>VS Code</span>
+                  <span>VS Code</span>
+                  <span>VS Code</span>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="col">
+           
+          <div class="card h-100">
+            <div
+              class="card-head d-flex justify-content-between align-items-center"
+            >
+              <div class="folder-link"><a href=""><i class="far fa-folder"></i></a></div>
+              <div class="d-flex justify-content-end project-link">
+                <a href=""> <i class="fab fa-github"></i> </a>
+
+                <a href=""> <i class="fas fa-external-link-alt"></i> </a>
+              </div>
+            </div>
+            <div class="card-body">
+            <a href="">  <h5>Octoprofile</h5></a>
+              <p>
+                This is a longer card with supporting text below as a
+                natural lead-in to additional content. This content is a
+                little bit longer.
+              </p>
+              <div class="d-flex justify-content-start">
+                <span>VS Code</span>
+                <span>VS Code</span>
+                <span>VS Code</span>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col">
+           
+        <div class="card h-100">
+          <div
+            class="card-head d-flex justify-content-between align-items-center"
+          >
+            <div class="folder-link"><a href=""><i class="far fa-folder"></i></a></div>
+            <div class="d-flex justify-content-end project-link">
+              <a href=""> <i class="fab fa-github"></i> </a>
+
+              <a href=""> <i class="fas fa-external-link-alt"></i> </a>
+            </div>
+          </div>
+          <div class="card-body">
+          <a href="">  <h5>Octoprofile</h5></a>
+            <p>
+              This is a longer card with supporting text below as a
+              natural lead-in to additional content. This content is a
+              little bit longer.
+            </p>
+            <div class="d-flex justify-content-start">
+              <span>VS Code</span>
+              <span>VS Code</span>
+              <span>VS Code</span>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="col">
+           
+      <div class="card h-100">
+        <div
+          class="card-head d-flex justify-content-between align-items-center"
+        >
+          <div class="folder-link"><a href=""><i class="far fa-folder"></i></a></div>
+          <div class="d-flex justify-content-end project-link">
+            <a href=""> <i class="fab fa-github"></i> </a>
+
+            <a href=""> <i class="fas fa-external-link-alt"></i> </a>
+          </div>
+        </div>
+        <div class="card-body">
+        <a href="">  <h5>Octoprofile</h5></a>
+          <p>
+            This is a longer card with supporting text below as a
+            natural lead-in to additional content. This content is a
+            little bit longer.
+          </p>
+          <div class="d-flex justify-content-start">
+            <span>VS Code</span>
+            <span>VS Code</span>
+            <span>VS Code</span>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="col">
+           
+    <div class="card h-100">
+      <div
+        class="card-head d-flex justify-content-between align-items-center"
+      >
+        <div class="folder-link"><a href=""><i class="far fa-folder"></i></a></div>
+        <div class="d-flex justify-content-end project-link">
+          <a href=""> <i class="fab fa-github"></i> </a>
+
+          <a href=""> <i class="fas fa-external-link-alt"></i> </a>
+        </div>
+      </div>
+      <div class="card-body">
+      <a href="">  <h5>Octoprofile</h5></a>
+        <p>
+          This is a longer card with supporting text below as a
+          natural lead-in to additional content. This content is a
+          little bit longer.
+        </p>
+        <div class="d-flex justify-content-start">
+          <span>VS Code</span>
+          <span>VS Code</span>
+          <span>VS Code</span>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="col">
+           
+  <div class="card h-100">
+    <div
+      class="card-head d-flex justify-content-between align-items-center"
+    >
+      <div class="folder-link"><a href=""><i class="far fa-folder"></i></a></div>
+      <div class="d-flex justify-content-end project-link">
+        <a href=""> <i class="fab fa-github"></i> </a>
+
+        <a href=""> <i class="fas fa-external-link-alt"></i> </a>
+      </div>
+    </div>
+    <div class="card-body">
+    <a href="">  <h5>Octoprofile</h5></a>
+      <p>
+        This is a longer card with supporting text below as a
+        natural lead-in to additional content. This content is a
+        little bit longer.
+      </p>
+      <div class="d-flex justify-content-start">
+        <span>VS Code</span>
+        <span>VS Code</span>
+        <span>VS Code</span>
+      </div>
+    </div>
+  </div>
+</div>
+       
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-left">
+        <div class="footer-left__link">
+          <i class="fab fa-github"><a href="#"></a></i>
+        </div>
+        <div class="footer-left__link">
+          <i class="fab fa-twitter"><a href=""></a></i>
+        </div>
+        <div class="footer-left__link">
+          <i class="fab fa-linkedin-in"><a href=""></a></i>
+        </div>
+        <div class="footer-left__link">
+          <i class="fas fa-phone"><a href=""></a></i>
+        </div>
+        <div class="footer-left__link line"></div>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-right__link">
+          <a href="">@ahmed.talaat.92@hotmail.com</a>
+
+          <div class="footer-right__link line"></div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyrights">
+      <div class="footer-bg ">
+      <a href=" https://aya7abbal.github.io/" target="_blank"><i class="far fa-copyright px-1"></i>
+        <span class="words">Created </span> by Aya7abbal</a>
+    </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./scripts/script.js"></script>
+  </body>
+</html>
