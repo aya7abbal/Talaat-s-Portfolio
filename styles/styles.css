@@ -348,7 +348,7 @@ i {
     min-height: 400px;
   }
 }
-.projects .card img:hover {
+.projects .card img:hover, .projects .card img:focus {
   opacity: 100%;
 }
 .projects .card .card-img-verlay {
@@ -416,8 +416,8 @@ i {
 
 body, html {
   margin: 0% !important;
-  max-width: 100%;
-  overflow-x: hidden;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
   background-color: var(--navy);
 }
 @media (min-width: 768px) {
