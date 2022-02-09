@@ -17,6 +17,10 @@
   background-color: var(--green);
 }
 
+nav .offcanvas {
+  background-color: var(--navy) !important;
+}
+
 @media (max-width: 768px) {
   footer {
     display: none;
