@@ -1,6 +1,6 @@
 .projects {
   .project-card {
-    padding-top: 120px !important;
+    padding-top: 100px !important;
 
     &:nth-child(odd) {
       direction: rtl;
@@ -26,8 +26,7 @@
 
     .card-img-verlay {
       opacity: 90%;
-      font-size: smaller;
-   
+      font-size: small;
     }
   }
 

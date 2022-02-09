@@ -179,7 +179,7 @@ a {
   color: var(--lgreen);
   text-decoration: none;
   background-color: transparent;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 a:hover {
   color: var(--green);
@@ -252,7 +252,7 @@ i {
 }
 
 .section-header {
-  padding-top: 180px;
+  padding-top: 150px;
 }
 .section-header hr {
   position: relative;
@@ -295,15 +295,25 @@ i {
   background-color: transparent;
 }
 
+.projects .project-card {
+  padding-top: 120px !important;
+}
+.projects .project-card:nth-child(odd) {
+  direction: rtl;
+}
+.projects .project-card:nth-child(odd) .project-desc__wrap {
+  transform: translate(210px, 0px);
+  text-align: left;
+}
 .projects .card {
   border-radius: 8px;
 }
 .projects .card img {
-  opacity: 20%;
+  opacity: 40%;
 }
 @media (max-width: 991px) {
   .projects .card img {
-    opacity: 10%;
+    opacity: 20%;
   }
 }
 .projects .card img:hover {
@@ -311,10 +321,11 @@ i {
 }
 .projects .card .card-img-verlay {
   opacity: 90%;
+  font-size: smaller;
 }
 .projects .project-desc__wrap {
   min-width: 500px;
-  transform: translate(-210px, -20px);
+  transform: translate(-210px, 0px);
   background-color: transparent;
   text-align: right;
 }
@@ -330,6 +341,15 @@ i {
   height: -moz-fit-content;
   height: fit-content;
   border-radius: 8px;
+}
+.projects .project-link i {
+  font-size: 1.2em;
+  color: white;
+  margin: 5px 10px;
+}
+.projects .project-link i:hover {
+  color: greenyellow;
+  transform: translateY(-3px);
 }
 
 * {

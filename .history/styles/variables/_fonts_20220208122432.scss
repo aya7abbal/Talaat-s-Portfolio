@@ -50,7 +50,7 @@ a {
   color: var(--lgreen);
   text-decoration: none;
   background-color: transparent;
-  cursor: pointer !important;
+  cursor: pointer;
 
   &:hover {
     color: var(--green);
