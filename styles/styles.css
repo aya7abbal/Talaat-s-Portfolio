@@ -21,6 +21,10 @@
 nav .offcanvas {
   background-color: var(--navy) !important;
 }
+nav .btn-check:focus + .btn, nav .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0);
+}
 
 @media (max-width: 768px) {
   footer {
@@ -168,6 +172,7 @@ footer .footer-right .line {
 }
 .rotating-icon:active .rotating-icon:focus, .rotating-icon:active .rotated-icon:focus, .rotated-icon:active .rotating-icon:focus, .rotated-icon:active .rotated-icon:focus {
   transform: rotate(90deg) !important;
+  border: transparent !important;
 }
 
 h2 {
