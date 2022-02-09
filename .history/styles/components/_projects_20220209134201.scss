@@ -1,6 +1,6 @@
 .projects {
   .project-card {
-    padding-top: 80px !important;
+    padding-top: 120px !important;
 
     &:nth-child(odd) {
       direction: rtl;
@@ -17,7 +17,7 @@
       opacity: 40%;
       @media (max-width: 991px) {
         opacity: 20%;
-        height: 350px;
+        height: 400px;
       }
 
       &:hover {

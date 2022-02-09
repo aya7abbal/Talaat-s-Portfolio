@@ -296,7 +296,7 @@ i {
 }
 
 .projects .project-card {
-  padding-top: 120px !important;
+  padding-top: 80px !important;
 }
 .projects .project-card:nth-child(odd) {
   direction: rtl;
@@ -314,6 +314,7 @@ i {
 @media (max-width: 991px) {
   .projects .card img {
     opacity: 20%;
+    height: 350px;
   }
 }
 .projects .card img:hover {
